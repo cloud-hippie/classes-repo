@@ -178,6 +178,8 @@ student = Student("John", 15, 80, Teacher("Mrs. Smith", "Math"), "1st Grade")
 
 Let's build this app and help schools manage their students!
 
+Navigate to the `student.py` file.
+
 Create a class called Student that has the following attributes: `name`, `email`, `github`, `cohort`, `start_date`, and `current_project`.
 
 The constructor should accept all of these parameters as arguments, and assign each one to the appropriate attribute.
@@ -190,7 +192,6 @@ The Student class should have the following methods:
 - `get_tutor()` - returns the student's current tutor. If the student is not assigned, return None.
 
 Create a class called Tutor that has the following attributes: `name`, `email`, `github`, `calendar_link`, `students` and `current_project`.
- 
 
 The constructor should accept all of these parameters as arguments, and assign each one to the appropriate attribute.
 
@@ -201,6 +202,19 @@ The Tutor class should have the following methods:
 - `assign_student(student)` - assign the given student to the tutors `students` list.
 
 Add a method to to the Student class called get_tutor_email that returns the email address of the student's tutor. If they do not have a tutor assigned, it should return "No tutor assigned".
+
+### Running the Tests
+
+This time we are going to use something called `pytest` to run our tests. Do not worry, we have written them for you, you just need to get them to pass! 
+
+Navigate to the `shell` tab at the top of this page and run the following command:
+
+```python
+pytest
+```
+
+It will run the tests and tell you the ones that did not pass. Once you get them all to pass, you can submit the assignment for review.
+
 
 ## Bonus: Refactor the two classes above into a single class called User.
 
