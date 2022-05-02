@@ -178,7 +178,7 @@ student = Student("John", 15, 80, Teacher("Mrs. Smith", "Math"), "1st Grade")
 
 Let's build this app and help schools manage their students!
 
-Navigate to the `student.py` file.
+Navigate to the `main.py` file.
 
 Create a class called Student that has the following attributes: `name`, `email`, `github`, `cohort`, `start_date`, and `current_project`.
 
@@ -191,7 +191,7 @@ The Student class should have the following methods:
 - `is_active_student()` - returns True if the student start_date is less than 60 datys from now.
 - `get_tutor()` - returns the student's current tutor. If the student is not assigned, return None.
 
-Create a class called Tutor that has the following attributes: `name`, `email`, `github`, `calendar_link`, `students` and `current_project`.
+Create a class called Tutor within the `tutor.py` file that has the following attributes: `name`, `email`, `github`, `calendar_link`, `students` and `current_project`.
 
 The constructor should accept all of these parameters as arguments, and assign each one to the appropriate attribute.
 
